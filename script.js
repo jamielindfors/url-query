@@ -1,9 +1,10 @@
-
 $(document).ready( function(){
     // wait for document to be loaded
     console.log('document ready');
-   getQueryVariable(id);
-});
+    getQueryVariable("id");
+    
+
+    });
 
 function getQueryVariable(variable)
 {
